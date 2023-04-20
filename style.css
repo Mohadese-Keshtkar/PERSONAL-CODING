@@ -1,0 +1,428 @@
+/* General CSS [START]*/
+a {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    transition: all ease 0.4s ;
+}
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+}
+
+span{
+    font-size: 36px;
+}
+
+p{
+    color: #8f8f8f;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}
+/* General CSS [END]*/
+
+/* Header CSS [START] */
+
+
+#header-container{
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow:1px 1px 10px rgb(247, 248, 253)
+}
+
+.header-box{
+    width: 1000px;
+    margin:0 auto;
+    padding: 20px;
+}
+
+
+#main-menu {
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+}
+
+#main-menu>ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#main-menu li {
+    display: inline-block;
+    margin-left: 9px;
+
+}
+
+#main-menu>ul>li>a {
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+#main-menu a:hover {
+    color: #8490ff
+}
+
+#main-menu>ul>li {
+    position: relative;
+}
+
+#main-menu>ul>li:hover>ul {
+    visibility: visible;
+    opacity: 1;
+}
+
+#main-menu>ul>li>ul {
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    color: white;
+    width: max-content;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    display: block;
+   visibility: hidden;
+   transition-property: all;
+   transition-duration:  0.3s;
+   transition-delay: 0.4s;
+    font-size: 11px;
+    font-weight: bold;
+    box-shadow:1px 2px 30px  rgb(201, 210, 226) ;
+    opacity: 0;
+}
+
+#main-menu>ul>li>ul>li{
+    display: block;
+    margin: 14px 5px;
+    
+}
+
+#main-menu>ul>li>ul>li>a{
+    padding-right: 100px;
+}
+
+/* li>ul level 2 [START]*/
+
+#main-menu>ul>li>ul>li>ul>li{
+display: block;
+margin:6px 5px;
+}
+
+#main-menu>ul>li>ul>li {
+    position: relative;
+}
+
+#main-menu>ul>li>ul>li:hover>ul {
+    visibility: visible;
+    opacity: 1;
+}
+
+#main-menu>ul>li>ul>li>ul{
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    width: max-content;
+    position: absolute;  
+    top: 0.2px;
+    right: 161.4px;
+    display: block;
+    opacity: 0;
+   visibility: hidden;
+   transition-property: all;
+   transition-duration:  0s;
+   transition-delay: 0.4s;
+    font-size: 11px;
+    font-weight: bold;
+    box-shadow:1px 2px 30px  rgb(201, 210, 226) ;                                                                                      
+}
+
+#main-menu>ul>li>ul>li>ul>li>a{
+margin-right: 90px;
+}
+
+/*li>ul level 2 [END]*/
+/* Header CSS [END] */
+
+/*first-main [START]*/
+
+#first-main{
+    background-color: #ffffff;
+    left: 0;
+    right: 0;
+    vertical-align: middle;
+/*  The header menu does not interfere with the bottom image of the header- with margin    */
+    margin-top:70px;
+/* END */
+width:1000px;
+margin:0 auto;
+
+}
+
+.left-items , .right-icon{
+    width:49% ;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+}
+
+.left-items p {
+       font-size: 13.5px;
+       color: #8f8f8f;
+}
+    
+.left-items{
+    margin-top:200px;
+    font-size:16px ;
+    vertical-align: middle;
+
+}
+
+.left-items h1{
+    font-size: 54px;
+    margin: 0;
+}
+
+ .right-icon {
+    padding-left: 10px;
+    margin-top: 80px;
+}
+    
+.DISCOVER-button a {
+    color: #fff;
+    background-color: #a3acff;
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    display: inline-block;
+    padding: 10px 28px;
+    font-size: 13px;
+    margin-top: 3px;
+}
+    
+.DISCOVER-button:hover>a  {
+    box-shadow: 2px 10px 27px rgb(164, 164, 255);
+}
+
+
+/*first-main [END]*/
+
+
+/*second-main CSS [START]*/
+#second-main{
+ width: 1300px;
+ margin:0 auto;
+ vertical-align: middle;
+ margin-top: 100px;
+}
+
+.main-left , .main-right{
+    width:49% ;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+}
+
+
+.main-right {
+  width: 35%;
+  padding-top: 60px;
+}
+
+.main-right p {
+    font-size: 13px;
+    color: #8f8f8f;
+}
+ 
+.main-right h1{
+ font-size: 36px;
+ margin: 0;
+}
+
+.VIEWFULLDETAILS-button a{
+    color: #ffffff;
+    background-color: #a3acff;
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    display: inline-block;
+    padding: 10px 28px;
+    font-size: 14px;
+    margin-top: 80px;
+}
+.VIEWFULLDETAILS-button:hover >a{
+box-shadow: 2px 10px 27px rgb(164, 164, 255);
+}
+
+.main-left img{
+width: 600px;
+}
+
+/*second-main CSS [END]*/
+
+/*MyOfferedServices-text CSS[START]*/
+.My-Offered{
+    width: 600px;
+    margin:0 auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.My-Offered p{
+    font-size: 14px;
+    color: #8f8f8f;
+    margin-top:6px;
+}
+
+.My-Offered h1{
+    font-weight: 580;
+    font-size: 35px;
+    margin: 0;
+    text-align: center;
+}
+/*MyOfferedServices-text CSS[END]*/
+
+/*row CSS [START]*/
+#row{
+width: 1400px;
+margin: 0 auto;
+margin-top: 78px;
+}
+
+/*top-items3 CSS [START]*/
+.top-items3{
+width: 1100px;
+height: 30px;
+margin:0 auto;
+text-align: center;
+margin-bottom: 200px;
+
+}
+
+.Web-Desing{
+    width: 300px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.Web-Desing:hover h4{
+    color: #1b99f3;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+.Web-Desing span:hover{
+    color: #1b99f3;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+.Web-Develop{
+    width: 300px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.Web-Develop:hover h4{
+    color: #1b99f3;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+.Web-Develop span:hover{
+    color: #1b99f3;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+.Photography{
+    width: 300px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.Photography:hover h4{
+    color: #1b99f3;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+.Photography span:hover{
+    color: #1b99f3;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+/*top-items3 CSS [END]*/
+
+/*buttom-items3 CSS [START]*/
+.buttom-items3{
+    width: 1100px;
+    height: 30px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.Clipping-pat{
+    width: 300px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.Clipping-pat:hover h4{
+    color: #1b99f3;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+.Clipping-pat span:hover{
+    color: #1b99f3;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+.App-interface{
+    width: 300px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.App-interface:hover h4{
+    color: #1b99f3;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+.App-interface span:hover{
+    color: #1b99f3;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+.Graphic-Design{
+    width: 300px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.Graphic-Design:hover h4{
+    color: #1b99f3;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+.Graphic-Design span:hover{
+    color: #1b99f3;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+/*buttom-items3 CSS [END]*/
+
+/*row CSS [END]*/
+

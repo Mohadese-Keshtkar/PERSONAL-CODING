@@ -20,6 +20,10 @@ p{
     font-family: "Poppins", sans-serif;
     font-size: 13px;
 }
+
+h1{
+font-family:"Poppins", sans-serif; 
+}
 /* General CSS [END]*/
 
 /* Header CSS [START] */
@@ -27,12 +31,12 @@ p{
 
 #header-container{
     position: fixed;
-    background-color: #ffffff;
+    background-color: #fefffa;
     z-index: 10;
     top: 0;
     left: 0;
     right: 0;
-    box-shadow:1px 1px 10px rgb(247, 248, 253)
+    box-shadow:1px 1px 10px rgb(224, 228, 245)
 }
 
 .header-box{
@@ -152,23 +156,23 @@ margin-right: 90px;
 /*first-main [START]*/
 
 #first-main{
-    background-color: #ffffff;
-    left: 0;
-    right: 0;
-    vertical-align: middle;
-/*  The header menu does not interfere with the bottom image of the header- with margin    */
-    margin-top:70px;
-/* END */
-width:1000px;
-margin:0 auto;
+ display: block;
+ width: 100%;
+ background-color: #f7f5ff;
+}
+
+.Container-f-main{
+    width:1000px;
+    margin:0 auto;
+    box-sizing: border-box;
 
 }
 
 .left-items , .right-icon{
     width:49% ;
     display: inline-block;
-    vertical-align: top;
     margin: 0 auto;
+    vertical-align: middle;
 }
 
 .left-items p {
@@ -177,10 +181,7 @@ margin:0 auto;
 }
     
 .left-items{
-    margin-top:200px;
     font-size:16px ;
-    vertical-align: middle;
-
 }
 
 .left-items h1{
@@ -188,9 +189,9 @@ margin:0 auto;
     margin: 0;
 }
 
- .right-icon {
+ .right-icon{
     padding-left: 10px;
-    margin-top: 80px;
+    margin-top: 120px;
 }
     
 .DISCOVER-button a {
@@ -213,10 +214,16 @@ margin:0 auto;
 
 /*second-main CSS [START]*/
 #second-main{
- width: 1300px;
- margin:0 auto;
- vertical-align: middle;
+ width: 100%;
+ display: block;
  margin-top: 100px;
+}
+
+.container-s-main{
+    width: 1300px;
+    margin:0 auto;
+    vertical-align: middle;
+
 }
 
 .main-left , .main-right{
@@ -265,7 +272,6 @@ width: 600px;
 .My-Offered{
     width: 600px;
     margin:0 auto;
-    margin-top: 40px;
     text-align: center;
 }
 
@@ -285,9 +291,7 @@ width: 600px;
 
 /*row CSS [START]*/
 #row{
-width: 1400px;
 margin: 0 auto;
-margin-top: 78px;
 height: 440px;
 margin-bottom: 78px;
 }
@@ -429,3 +433,70 @@ height: 220px;
 
 /*row CSS [END]*/
 
+/*part3-section CSS [START]*/
+#part3-section {
+    width: 100%;
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.container-part3-section{
+box-sizing: border-box;
+width: 1100px;
+margin:0 auto;
+}
+/*part3-section CSS [END]*/
+
+/*Namber-Line[START]*/
+#Namber-Line{
+width: 100%;
+display: block;
+background:-webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%); ;
+box-sizing: border-box;
+}
+.Container-Namber-Line{
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+    display: inline-block;
+}
+
+.container-nl{
+    width: 1400px;
+    display: inline-block;
+}
+
+.Container-Namber-Line p{
+    color: #fff;
+    font-size: 15px;
+    margin: 0;
+}
+
+.Container-Namber-Line h1{
+    color: #fff;
+    margin: 0;
+    font-size: 40px;
+
+}
+
+.NUMBER-2536{
+    display: inline-block;
+    margin-right: 120px ;
+    margin-left: 120px;
+}
+
+.NUMBER-6784{
+    display: inline-block;
+    margin-right: 120px ;
+}
+
+.NUMBER-2239{
+    display: inline-block;
+    margin-right: 120px ;
+}
+
+.NUMBER-434{
+    display: inline-block;
+}
+/*Namber-Line[END]*/

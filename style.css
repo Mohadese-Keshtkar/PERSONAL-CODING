@@ -6,6 +6,10 @@ a {
     transition: all ease 0.4s ;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     background-color: #ffffff;
@@ -18,7 +22,7 @@ span{
 p{
     color: #8f8f8f;
     font-family: "Poppins", sans-serif;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 h1{
@@ -448,7 +452,7 @@ margin:0 auto;
 }
 /*part3-section CSS [END]*/
 
-/*Namber-Line[START]*/
+/*Namber-Line CSS [START]*/
 #Namber-Line{
 width: 100%;
 display: block;
@@ -499,4 +503,95 @@ box-sizing: border-box;
 .NUMBER-434{
     display: inline-block;
 }
-/*Namber-Line[END]*/
+/*Namber-Line CSS [END]*/
+
+/*section-gap CSS [START]*/
+#section-gap{
+    width: 100%;
+  display: block;
+    padding: 120px 0;
+    font-family:"Poppins", sans-serif; 
+}
+
+.container-gap{
+   max-width: 1140px;
+    margin: 0 auto;
+}
+
+.text-project{
+text-align: center;
+margin-bottom: 100px;
+}
+
+.text-project h1{
+font-size: 38px;
+margin: 0;
+}
+
+.filters{
+    text-align: center;
+    width: 900px;
+    margin:0 auto;
+    font-weight: 500;
+}
+
+.filters a{
+   margin-right: 10px;
+   color: #000000;
+    padding: 18px 15px;
+    position: relative;
+}
+
+.filters a::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: #000000;
+    width: 0;
+    height:0;
+    top: 68%;
+    left: 42%;
+    transform: translate(-80%);
+    transition: all 0.3s ease-in-out ;
+}
+
+.filters .f-ALL {
+    color: #8490ff;
+}
+
+.f-VECTOR::before{
+    width:100%;
+    height:100%;
+}
+.f-VECTOR:hover:before{
+    width:30% ;
+    height:1.7px;
+}
+
+.f-RASTER::before{
+    width:100%;
+    height:100%;
+}
+.f-RASTER:hover:before{
+    width:30% ;
+    height:1.7px;
+}
+
+.f-UI-UX::before{
+    width:100%;
+    height:100%;
+}
+.f-UI-UX:hover:before{
+    width:30% ;
+    height:1.7px;
+}
+
+.f-PRINTING::before{
+    width:100%;
+    height:100%;
+}
+.f-PRINTING:hover:before{
+    width:30% ;
+    height:1.7px;
+}
+/*section-gap CSS [END]*/

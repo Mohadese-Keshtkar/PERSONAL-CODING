@@ -22,11 +22,30 @@ span{
 p{
     color: #8f8f8f;
     font-family: "Poppins", sans-serif;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 h1{
 font-family:"Poppins", sans-serif; 
+}
+
+h3{
+    margin-top: 20px;
+}
+
+h5{
+    text-decoration: none;
+    font-family:"Poppins", sans-serif; 
+    margin: 0%;
+    margin-bottom: 10px;
+}
+
+h4{
+    text-decoration: none;
+    font-family:"Poppins", sans-serif; 
+    margin-top: 20px;
+    margin-bottom:3px ;
+    
 }
 /* General CSS [END]*/
 
@@ -162,7 +181,7 @@ margin-right: 90px;
 #first-main{
  display: block;
  width: 100%;
- background-color: #f7f5ff;
+ background-color: #f6f7ff;
 }
 
 .Container-f-main{
@@ -298,6 +317,7 @@ width: 600px;
 margin: 0 auto;
 height: 440px;
 margin-bottom: 78px;
+margin-top: 70px;
 }
 
 /*top-items3 CSS [START]*/
@@ -307,8 +327,6 @@ height: 30px;
 margin:0 auto;
 text-align: center;
 height: 220px;
-
-
 }
 
 .Web-Desing{
@@ -457,7 +475,6 @@ margin:0 auto;
 width: 100%;
 display: block;
 background:-webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%); ;
-box-sizing: border-box;
 }
 .Container-Namber-Line{
     width: 100%;
@@ -481,7 +498,6 @@ box-sizing: border-box;
     color: #fff;
     margin: 0;
     font-size: 40px;
-
 }
 
 .NUMBER-2536{
@@ -514,7 +530,7 @@ box-sizing: border-box;
 }
 
 .container-gap{
-   max-width: 1140px;
+   max-width: 1940px;
     margin: 0 auto;
 }
 
@@ -550,9 +566,9 @@ margin: 0;
     width: 0;
     height:0;
     top: 68%;
-    left: 42%;
-    transform: translate(-80%);
-    transition: all 0.3s ease-in-out ;
+    left: 16%;
+    transform: translate(0 -80%);
+    transition: all 0.4s ease-in-out ;
 }
 
 .filters .f-ALL {
@@ -594,4 +610,300 @@ margin: 0;
     width:30% ;
     height:1.7px;
 }
+
+.filter-content{
+    margin-top: 70PX;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.filter-content h3,p{
+    margin: 0;
+}
+
+.iceyP{
+margin-right: 30px;
+display: inline-block;
+}
+
+.top-picture img{ 
+   margin-bottom: 20px;
+}
+
+.top-picture{
+  margin-top: 83px;
+}
+
+.right-iceyP {
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.candyP{
+    display: inline-block;
+}
+
+.bottom-picture img{ 
+    margin-bottom: 20px;
+ }
+ 
+ .bottom-picture{
+   margin-top: 13px;
+ }
+
+ .dogP{
+    margin-right: 30px;
+    display: inline-block;
+ }
+
+ .Helmet3P{
+    margin-right: 30px;
+    display: inline-block;
+ }
+
+ .VinylP{
+    display: inline-block;
+ }
+ 
+ .iceyP{
+     position: relative;
+ }
+ 
+ .iceyP::before{
+     content: '';
+     display: block;
+     position: absolute;
+     background:-webkit-linear-gradient(0deg, #8490ffd3 0%, hsla(205, 96%, 69%, 0.815) 100%); ;
+     width: 0;
+     height: 0;
+     bottom: 50%;
+     top: 40%;
+     left: 50%;
+     right: 50%;
+     border-radius: 9px;
+     transition:all 0.6s ease-in;
+ }
+ 
+ .iceyP:hover::before{
+     bottom: 0;
+     top: 0;
+     left: 0;
+     right: 0;
+     width: 100%;
+     height: 81.2%;
+ }
+
+.right-iceyP{
+    position: relative;
+}
+
+.right-iceyP::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background:-webkit-linear-gradient(0deg, #8490ffd3 0%, hsla(205, 96%, 69%, 0.815) 100%); ;
+    width: 0;
+    height: 0;
+    bottom: 50%;
+    top: 40%;
+    left: 50%;
+    right: 50%;
+    border-radius: 9px;
+    transition:all 0.6s ease-in;
+}
+
+.right-iceyP:hover::before{
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 81.2%;
+}
+
+.candyP{
+    position: relative;
+}
+
+.candyP::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background:-webkit-linear-gradient(0deg, #8490ffd3 0%, hsla(205, 96%, 69%, 0.815) 100%); ;
+    width: 0;
+    height: 0;
+    bottom: 50%;
+    top: 40%;
+    left: 50%;
+    right: 50%;
+    border-radius: 9px;
+    transition:all 0.6s ease-in;
+}
+
+.candyP:hover::before{
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 81.2%;
+}
+
+.dogP{
+    position: relative;
+}
+
+.dogP::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background:-webkit-linear-gradient(0deg, #8490ffd3 0%, hsla(205, 96%, 69%, 0.815) 100%); ;
+    width: 0;
+    height: 0;
+    bottom: 50%;
+    top: 40%;
+    left: 50%;
+    right: 50%;
+    border-radius: 9px;
+    transition:all 0.6s ease-in;
+}
+
+.dogP:hover::before{
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 81.2%;
+}
+
+.Helmet3P{
+    position: relative;
+}
+
+.Helmet3P::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background:-webkit-linear-gradient(0deg, #8490ffd3 0%, hsla(205, 96%, 69%, 0.815) 100%); ;
+    width: 0;
+    height: 0;
+    bottom: 50%;
+    top: 40%;
+    left: 50%;
+    right: 50%;
+    border-radius: 9px;
+    transition:all 0.6s ease-in;
+}
+
+.Helmet3P:hover::before{
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 81.2%;
+}
+
+.VinylP{
+    position: relative;
+}
+
+.VinylP::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background:-webkit-linear-gradient(0deg, #8490ffd3 0%, hsla(205, 96%, 69%, 0.815) 100%); ;
+    width: 0;
+    height: 0;
+    bottom: 50%;
+    top: 40%;
+    left: 50%;
+    right: 50%;
+    border-radius: 9px;
+    transition:all 0.6s ease-in;
+}
+
+.VinylP:hover::before{
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 81.2%;
+}
 /*section-gap CSS [END]*/
+
+/*feedback-section CSS [START]*/
+.feedback-section{
+    width: 100%;
+    display: block;
+    padding: 110px 0;
+    background-color: #f4f5ff;
+    margin-bottom: 50px;
+}
+
+.feedback-container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.title-text-center h5{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.title-text-center{
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.F-rowback{
+    width: 995PX;
+    margin:0 auto;
+}
+
+.leftID:hover h4{
+color: #7d95ff;
+transition: all 0.4s ease-in-out;
+}
+
+.leftID{
+    width: 450px;
+    background-color: #fff;
+    padding: 20px 10px 20px 20px;
+    display: inline-block;
+}
+
+.leftID img{
+width: 40px;
+float: left;
+}
+
+.container-texts-left{
+    margin-left: 60px;
+}
+
+.rightID{
+    width: 493px;
+    background-color: #fff;
+    padding: 20px 10px 20px 30px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.rightID img{
+width: 40px;
+float: left;
+}
+
+.rightID:hover h4{
+    color: #7d95ff;
+    transition: all 0.4s ease-in-out;
+    }
+
+.container-texts-right{
+    margin-left: 60px;
+}
+/*feedback-section CSS [END]*/

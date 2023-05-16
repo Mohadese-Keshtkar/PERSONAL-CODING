@@ -8,6 +8,7 @@ a {
 
 *{
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -224,7 +225,7 @@ margin-right: 90px;
     display: inline-block;
     padding: 10px 28px;
     font-size: 13px;
-    margin-top: 3px;
+    margin-top: 30px;
 }
     
 .DISCOVER-button:hover>a  {
@@ -342,7 +343,7 @@ height: 220px;
     transition-duration: 0.4s;
 }
 
-.Web-Desing span:hover{
+.Web-Desing:hover{
     color: #1b99f3;
     transition-property: all;
     transition-duration: 0.4s;
@@ -361,7 +362,7 @@ height: 220px;
     transition-duration: 0.4s;
 }
 
-.Web-Develop span:hover{
+.Web-Develop:hover{
     color: #1b99f3;
     transition-property: all;
     transition-duration: 0.4s;
@@ -380,7 +381,7 @@ height: 220px;
     transition-duration: 0.4s;
 }
 
-.Photography span:hover{
+.Photography:hover{
     color: #1b99f3;
     transition-property: all;
     transition-duration: 0.4s;
@@ -408,7 +409,7 @@ height: 220px;
     transition-duration: 0.4s;
 }
 
-.Clipping-pat span:hover{
+.Clipping-pat:hover{
     color: #1b99f3;
     transition-property: all;
     transition-duration: 0.4s;
@@ -427,7 +428,7 @@ height: 220px;
     transition-duration: 0.4s;
 }
 
-.App-interface span:hover{
+.App-interface:hover{
     color: #1b99f3;
     transition-property: all;
     transition-duration: 0.4s;
@@ -446,7 +447,7 @@ height: 220px;
     transition-duration: 0.4s;
 }
 
-.Graphic-Design span:hover{
+.Graphic-Design:hover{
     color: #1b99f3;
     transition-property: all;
     transition-duration: 0.4s;
@@ -524,7 +525,7 @@ background:-webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%); ;
 /*section-gap CSS [START]*/
 #section-gap{
     width: 100%;
-  display: block;
+    display: block;
     padding: 120px 0;
     font-family:"Poppins", sans-serif; 
 }
@@ -814,7 +815,7 @@ display: inline-block;
     content: '';
     display: block;
     position: absolute;
-    background:-webkit-linear-gradient(0deg, #8490ffd3 0%, hsla(205, 96%, 69%, 0.815) 100%); ;
+    background:-webkit-linear-gradient(0deg, #8490ffd3 0%, hsla(205, 96%, 69%, 0.815) 100%); 
     width: 0;
     height: 0;
     bottom: 50%;
@@ -907,3 +908,488 @@ float: left;
     margin-left: 60px;
 }
 /*feedback-section CSS [END]*/
+
+/*plan-area(SECTION) CSS [START]*/
+#plan-area{
+    display: block;
+    width: 100%;
+    margin-top: 130px;
+    margin-bottom: 100px
+}
+
+.container-plan{
+    margin: 0 auto;
+    max-width: 1500px;
+    height: 700px;
+}
+
+.text-plan{
+    text-align: center;
+}
+.text-plan p,h1{
+    margin: 0%;
+}
+.text-plan h1{
+    font-weight: 640;
+    font-size: 36px;
+}
+.row-plan{
+    width: 1000px;
+    background-color: #e5ebff94;
+    margin: 0 auto;
+    margin-top: 90px;
+    height: 500px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1{
+    padding: 40px 20px;
+    width:250px ;
+    height: 500px;
+    display: inline-block;
+    transition: all 0.2s;
+}
+
+
+.box-1:hover{
+    width:270px ;
+    height: 520px;
+    color: #f4f5ff;
+    background:-webkit-linear-gradient(0deg, #8490ffc4 0%, hsla(205, 96%, 69%, 0.712) 100%); 
+}
+
+.row-plan:hover .num-01{
+    border: 30px solid rgba(255, 255, 255, 0.342);
+    }
+
+.num-01{
+font-weight: 300;
+font-size: 34px;
+transition: all 0.3s ease 0s;
+font-weight: 300;
+margin-left: auto;
+margin-right: auto;
+width: 130px;
+height: 130px;
+background-color: rgba(132, 144, 255, 0.1);
+border-radius: 100px;
+align-items: center;
+display: grid;
+border: 30px solid rgba(132, 144, 255, 0.1);
+}
+
+.top-part-1{
+margin-bottom: 34px;
+}
+
+.between-list-01 ul li{
+font-size: 13px;
+list-style-type: none;
+font-family:"Poppins", sans-serif; 
+border-top: 1px solid lightgray;
+color: #8f8f8f; ;
+width: 190px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.between-list-01 ul li:last-of-type{
+    border-bottom: 1px solid lightgray;
+}
+
+.between-list-01 ul {
+    padding: 0;
+  margin-left: 9px;
+}
+
+.bottom-part1{
+    margin-top: 10px;
+}
+.button-box1{
+    text-decoration: none;
+    padding: 10px 50px;
+    color: #000000;
+   background-color: floralwhite;
+   opacity: 0;
+   visibility: hidden;
+}
+
+.box-1:hover p{
+    color: #ffffff;
+}
+
+.box-1:hover ul li:last-of-type{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.box-1:hover ul li{
+    border-top: 1px solid rgb(255, 255, 255);
+    color: #fff5f5; ;
+}
+
+.box-1:hover .button-box1 {
+    visibility: visible;
+    opacity: 1;
+  }
+  .box-1:hover .bottom-part {
+    visibility: hidden;
+}
+
+.box-2{
+    padding: 40px 20px;
+    width:250px ;
+    height: 500px;
+    display: inline-block;
+    transition: all 0.2s;
+}
+
+.box-2:hover{
+    width:270px ;
+    height: 520px;
+    color: #f4f5ff;
+    background:-webkit-linear-gradient(0deg, #8490ffc4 0%, hsla(205, 96%, 69%, 0.712) 100%); 
+}
+
+.num-02{
+font-weight: 300;
+font-size: 34px;
+transition: all 0.3s ease 0s;
+font-weight: 300;
+margin-left: auto;
+margin-right: auto;
+width: 130px;
+height: 130px;
+background-color: rgba(132, 144, 255, 0.1);
+border-radius: 100px;
+align-items: center;
+display: grid;
+border: 30px solid rgba(132, 144, 255, 0.1);
+}
+
+.row-plan:hover .num-02{
+border: 30px solid rgba(255, 255, 255, 0.342);
+}
+
+.top-part-2{
+margin-bottom: 34px;
+}
+
+.between-list-02 ul li{
+font-size: 13px;
+list-style-type: none;
+font-family:"Poppins", sans-serif; 
+border-top: 1px solid lightgray;
+color: #8f8f8f; ;
+width: 190px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.between-list-02 ul li:last-of-type{
+    border-bottom: 1px solid lightgray;
+}
+
+.between-list-02 ul {
+    padding: 0;
+    margin-left: 9px;
+}
+
+.bottom-part2{
+    margin-top: 10px;
+}
+.button-box2{
+    text-decoration: none;
+    padding: 10px 50px;
+    color: #000000;
+   background-color: floralwhite;
+   opacity: 0;
+   visibility: hidden;
+}
+
+.box-2:hover p{
+    color: #ffffff;
+}
+
+.box-2:hover ul li:last-of-type{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.box-2:hover ul li{
+    border-top: 1px solid rgb(255, 255, 255);
+    color: #fff5f5; ;
+}
+
+.box-2:hover .button-box2 {
+    visibility: visible;
+    opacity: 1;
+  }
+  .box-2:hover .bottom-part2 {
+    visibility: hidden;
+}
+
+
+.box-3{
+    padding: 40px 20px;
+    width:250px ;
+    height: 500px;
+    display: inline-block;
+    transition: all 0.2s;
+}
+
+.box-3:hover{
+    width:270px ;
+    height: 520px;
+    color: #f4f5ff;
+    background:-webkit-linear-gradient(0deg, #8490ffc4 0%, hsla(205, 96%, 69%, 0.712) 100%); 
+}
+
+.row-plan:hover .num-03{
+    border: 30px solid rgba(255, 255, 255, 0.342);
+    }
+
+.num-03{
+font-weight: 300;
+font-size: 34px;
+transition: all 0.3s ease 0s;
+font-weight: 300;
+margin-left: auto;
+margin-right: auto;
+width: 130px;
+height: 130px;
+background-color: rgba(132, 144, 255, 0.1);
+border-radius: 100px;
+align-items: center;
+display: grid;
+border: 30px solid rgba(132, 144, 255, 0.1);
+}
+
+.top-part-3{
+margin-bottom: 34px;
+}
+
+.between-list-03 ul li{
+font-size: 13px;
+list-style-type: none;
+font-family:"Poppins", sans-serif; 
+border-top: 1px solid lightgray;
+color: #8f8f8f; ;
+width: 190px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.between-list-03 ul li:last-of-type{
+    border-bottom: 1px solid lightgray;
+}
+
+.between-list-03 ul {
+    padding: 0;
+    margin-left: 9px;
+}
+
+.bottom-part3{
+    margin-top: 10px;
+}
+.button-box3{
+    text-decoration: none;
+    padding: 10px 50px;
+    color: #000000;
+   background-color: floralwhite;
+   opacity: 0;
+   visibility: hidden;
+}
+
+.box-3:hover p{
+    color: #ffffff;
+}
+
+.box-3:hover ul li:last-of-type{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.box-3:hover ul li{
+    border-top: 1px solid rgb(255, 255, 255);
+    color: #fff5f5; ;
+}
+
+.box-3:hover .button-box3 {
+    visibility: visible;
+    opacity: 1;
+  }
+  .box-3:hover .bottom-part3 {
+    visibility: hidden;
+}
+
+
+.box-4{
+    padding: 40px 20px;
+    width:250px ;
+    height: 500px;
+    display: inline-block;
+    transition: all 0.2s;
+}
+
+.box-4:hover{
+    width:270px ;
+    height: 520px;
+    color: #f4f5ff;
+    background:-webkit-linear-gradient(0deg, #8490ffc4 0%, hsla(205, 96%, 69%, 0.712) 100%); 
+}
+
+.box-4:hover .num-04{
+    border: 30px solid rgba(255, 255, 255, 0.342);
+    }
+
+.num-04{
+font-weight: 300;
+font-size: 34px;
+transition: all 0.3s ease 0s;
+font-weight: 300;
+margin-left: auto;
+margin-right: auto;
+width: 130px;
+height: 130px;
+background-color: rgba(132, 144, 255, 0.1);
+border-radius: 100px;
+align-items: center;
+display: grid;
+border: 30px solid rgba(132, 144, 255, 0.1);
+}
+
+.box-4:hover p{
+    color: #ffffff;
+}
+
+.top-part-4{
+margin-bottom: 34px;
+}
+
+.between-list-04 ul li{
+font-size: 13px;
+list-style-type: none;
+font-family:"Poppins", sans-serif; 
+border-top: 1px solid lightgray;
+color: #8f8f8f; ;
+width: 190px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.between-list-04 ul li:last-of-type{
+    border-bottom: 1px solid lightgray;
+}
+
+.box-4:hover ul li:last-of-type{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.between-list-04 ul {
+    padding: 0;
+    margin-left: 9px;
+}
+
+.box-4:hover ul li{
+    border-top: 1px solid rgb(255, 255, 255);
+    color: #fff5f5; ;
+}
+
+.bottom-part4{
+    margin-top: 10px;
+}
+.button-box4{
+    text-decoration: none;
+    padding: 10px 50px;
+    color: #000000;
+    background-color: rgb(253, 245, 229);
+    visibility: hidden;
+   opacity: 0;
+}
+
+.box-4:hover .button-box4 {
+    visibility: visible;
+    opacity: 1;
+  }
+  .box-4:hover .bottom-part4 {
+    visibility: hidden;
+}
+/*plan-area(SECTION) CSS [END]*/
+
+/*SECTON POSTS CSS [START]*/
+#section-posts{
+    width: 100%;
+    display: block;
+    background-color: #e5ebff94;
+}
+
+.container-posts{
+    width: 1000PX;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+
+.title-post{
+    text-align: center;
+    padding-bottom: 80px;
+}
+.title-post h1{
+    font-weight: 560;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+.row-posts{
+display: flex;
+}
+
+.card-post {
+    width: 340px;
+    margin-right: 26px;
+}
+
+.card-post:hover img:first-of-type{
+transition: all 0.4s;
+}
+
+.card-post:hover>h4{
+    color: #8c99ff;
+    transition: all 0.4s ;
+}
+
+.card-post:hover>div:first-of-type>img:first-of-type{
+    transform: scale(1.1);
+    padding-bottom: 10px;
+}
+.card-post>div:first-of-type>img:first-of-type{
+    width: 320px;
+}
+.card-post>div:first-of-type>span:first-of-type{
+    font-weight: 300;
+    font-size: 13px;
+    color: #222;
+    position: relative;
+    bottom: 10px;
+    left: 8px;
+}
+.card-post>div:first-of-type>span:nth-of-type(2),.card-post>div:first-of-type>span:nth-of-type(3),
+.card-post>div:first-of-type>h6,
+.card-post>div:first-of-type>span:nth-of-type(4){
+    font-size: 13px;
+    font-weight: 300;
+    color: #777;
+    position: relative;
+    left: 60px;
+    bottom: 9px;
+    margin: 0;
+    display: inline-block;
+}
+
+.card-post>div:first-of-type>span:nth-of-type(4){
+    left: 80px;
+}
+.card-post>div:first-of-type>h6:nth-of-type(2){
+    left: 80px;
+}
+/*SECTION POSTS CSS CSS [END]*/

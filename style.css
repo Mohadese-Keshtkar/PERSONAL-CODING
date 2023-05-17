@@ -1342,6 +1342,7 @@ padding-bottom: 10px;
 }
 .row-posts{
 display: flex;
+padding-bottom: 184px;
 }
 
 .card-post {
@@ -1359,8 +1360,8 @@ transition: all 0.4s;
 }
 
 .card-post:hover>div:first-of-type>img:first-of-type{
-    transform: scale(1.1);
-    padding-bottom: 10px;
+    transform: scale(0.9);
+   
 }
 .card-post>div:first-of-type>img:first-of-type{
     width: 320px;
@@ -1373,7 +1374,8 @@ transition: all 0.4s;
     bottom: 10px;
     left: 8px;
 }
-.card-post>div:first-of-type>span:nth-of-type(2),.card-post>div:first-of-type>span:nth-of-type(3),
+.card-post>div:first-of-type>span:nth-of-type(2),
+.card-post>div:first-of-type>span:nth-of-type(3),
 .card-post>div:first-of-type>h6,
 .card-post>div:first-of-type>span:nth-of-type(4){
     font-size: 13px;
@@ -1393,3 +1395,109 @@ transition: all 0.4s;
     left: 80px;
 }
 /*SECTION POSTS CSS CSS [END]*/
+
+/*label section CSS [START]*/
+.s-label{
+    width: 100%;
+    display: block;
+}
+
+.container-labels{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:0 auto;
+    padding: 110px 0;
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+
+.container-labels img{
+    opacity: 50%;
+    margin-right: 90px;
+}
+
+.C-IMG:hover img{
+    opacity: 100%;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+/*label section CSS [END]*/
+
+/*footer CSS [START]*/
+#footer{
+    width: 100%;
+    display: block;
+    background: #000000;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    padding: 210px 0;
+    margin: 0 auto;
+    width: 1500px;
+}
+
+.footer-items{
+    width: 490px;
+    color: white;
+    margin-right: 50px;
+}
+
+.footer-items a{
+  color: #92a6ff;
+}
+
+.input-group{
+    display: flex;
+    margin-top: 10px;
+}
+.form-control{
+width: 80% !important;
+font-weight: 300;
+background: #f9f9ff;
+padding-left: 20px;
+border-radius: 0;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
+
+.lnr {
+ font-family: 'Linearicons-Free';
+}
+
+.lnr-arrow-right{
+font-size: 20px;
+padding: 30px 14px;
+color: white;
+}
+
+.btn-default{
+background: #a2a3ff;
+padding: 10px 0;
+ }
+
+ .footer-items3{
+    width: 200px;
+    color: white;
+    margin-top: 15px;
+ }
+   
+ #program a{
+    margin-right: 15px;
+    color: white;
+    font-size: 14px;
+}
+#program a:hover{
+    color: #5277f8;
+}
+
+#program{
+   margin-top: 20px;
+}
+/*footer CSS [END]*/
